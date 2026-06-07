@@ -20,7 +20,11 @@ const ProjectDetail = () => {
         <p className="hero-subtitle text-secondary">{project.description}</p>
       </div>
 
-      <img src={project.image} alt={project.title} className="project-hero-image" />
+      {project.video ? (
+        <video src={project.video} autoPlay loop muted playsInline controls className="project-hero-image" style={{ width: '100%', objectFit: 'cover' }} />
+      ) : (
+        <img src={project.image} alt={project.title} className="project-hero-image" />
+      )}
 
       <div className="project-meta">
         <div className="meta-item">

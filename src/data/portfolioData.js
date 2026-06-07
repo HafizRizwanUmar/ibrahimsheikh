@@ -1,10 +1,10 @@
 export const personalInfo = {
-  name: "Ibrahim Sheikh",
+  name: "Ibrahim Yousaf",
   role: "Animator & 3D Artist",
   tagline: "Breathing Life into Digital Worlds.",
   bio: "I am a passionate animator specializing in character animation, 3D modeling, and visual storytelling. With a keen eye for detail and a love for creating dynamic motion, I bring ideas to life through movement and art. Currently studying Animation, I am constantly exploring new techniques to push the boundaries of digital expression.",
-  email: "hello@ibrahimsheikh.com",
-  phone: "+1 (555) 123-4567",
+  email: "Ibrahimyousaf252@gmail.com",
+  phone: "+92 324 6565966",
   socials: {
     linkedin: "https://linkedin.com",
     behance: "https://behance.net",
@@ -84,23 +84,23 @@ export const projects = [
   },
   {
     id: "project-4",
-    title: "Product Viz: Future Tech",
-    client: "Freelance",
-    year: "2023",
-    software: "Cinema 4D, Redshift",
-    role: "3D Generalist",
-    description: "Sleek and professional product visualization animation for a conceptual tech gadget.",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2670&auto=format&fit=crop"
+    title: "Showreel 2026",
+    client: "Personal Project",
+    year: "2026",
+    software: "Maya, Blender, After Effects",
+    role: "Animator & 3D Artist",
+    description: "A compilation of my best work in 3D animation, modeling, and motion graphics.",
+    video: "/showreel.mp4"
   },
   {
     id: "project-5",
-    title: "Creature Rigging",
+    title: "AI Generated Movie",
     client: "Personal Project",
-    year: "2023",
-    software: "Maya, Python",
-    role: "Technical Artist",
-    description: "Developed a custom, flexible rig for a quadruped creature with automated secondary dynamics.",
-    image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2574&auto=format&fit=crop"
+    year: "2026",
+    software: "Google Flow",
+    role: "AI Artist",
+    description: "A short movie generated entirely using AI tools like Google Flow.",
+    video: "/ai.mp4"
   }
 ];
 
