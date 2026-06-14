@@ -90,7 +90,7 @@ export const projects = [
     software: "Maya, Blender, After Effects",
     role: "Animator & 3D Artist",
     description: "A compilation of my best work in 3D animation, modeling, and motion graphics.",
-    video: "/showreel.mp4"
+    video: "/reel4.mp4"
   },
   {
     id: "project-5",
@@ -107,5 +107,5 @@ export const projects = [
 export const showreel = {
   title: "Animation Showreel 2026",
   description: "A compilation of my best work in 3D animation, modeling, and motion graphics.",
-  videoUrl: "/showreel.mp4" // Placeholder, make sure to add showreel.mp4 to your public folder!
+  videoUrl: "/reel4.mp4" // Placeholder, make sure to add showreel.mp4 to your public folder!
 };
